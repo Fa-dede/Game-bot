@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@300;400;700&display=swap');
+
+// *{
+//     border: solid 1px white;
+// }
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Fraunces', serif;
+    img{
+        width: 10%;
+    }
+    h1{
+        display: inline;
+        height: 40px;
+    }
+}
+
+.instruction-title{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    i{
+        display: inline;
+        height: 20px;
+        width: 20px;
+    }
+    p{
+        display: inline;
+        padding: 10px;
+        font-family: 'Fraunces', serif;
+    }
+}
+
+.instructions-rows{
+    margin: auto;
+    font-family: 'Fraunces', serif;
+    &__number{
+        font-size: 25px;
+        padding: 5px;
+    }
+    &__text{
+        font-style: italic;
+    }
+}
+
+.cards-row{
+    text-align: center;
+    .cards{
+        cursor: pointer;
+        width: 15%;
+    }
+}
+
+.start-row{
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 150px;
+}

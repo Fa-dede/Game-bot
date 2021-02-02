@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game-La boite de Pandore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    
+</head>
+<body>
+    <header class="header">
+        <img src="./img/pandore-box.png" alt="pandore-box">
+        <h1>Le jeu de Pandore</h1>
+    </header>
+
+    <div class="instruction-title">
+        <i class="fas fa-dice"></i>
+        <p>Règles du jeu</p>
+        <i class="fas fa-dice"> </i>
+    </div>
+
+
+    <table class="instructions-rows">
+        <tr>
+            <td class="instructions-rows__number">1</td>
+            <td class="instructions-rows__text">Derrière l'une de ses cartes se cachent tous les maux de la Terre...</td>
+        </tr>
+        <tr>
+            <td class="instructions-rows__number">2</td>
+            <td class="instructions-rows__text">Votre mission est de retourner toutes les cartes sans ouvrir la boite de Pandore</td>
+        </tr>
+        <tr>
+            <td class="instructions-rows__number">3</td>
+            <td class="instructions-rows__text">Si vous arriver à éviter "La Mort", vous gagnez ! </td>
+        </tr>
+        <tr>
+            <td class="instructions-rows__number">4</td>
+            <td class="instructions-rows__text">Oserez-vous défier Pandore ? </td>
+        </tr>
+    </table>
+
+    <main class="cards-row">
+        <img id="card1" class="cards" src="./img/card1.png" alt="card-1">
+        <img id="card2" class="cards" src="./img/card1.png" alt="card-2">
+        <img id="card3" class="cards" src="./img/card1.png" alt="card-3">
+    </main>
+
+    <button id="start" class="start-row">Bonne chance</button>
+
+    <script src="./script.js"></script>
+</body>
+</html>
